@@ -36,12 +36,11 @@
     justify-content: space-between;
     
 
-    &_find {
+    &_search {
       @include clear-button;
-      
     }
 
-    &_shop{
+    &_basket{
       position: relative;
       display: inline-block;
       
