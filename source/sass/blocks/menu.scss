@@ -1,0 +1,66 @@
+.header {
+  padding: 77px 84px;
+
+  &_container {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    width: 1559px;
+  }
+
+  &_nav {
+    margin-left: 363px;
+    display: block;
+
+    &_list {
+      @include clear-list;
+
+      display: flex;
+    }
+
+    a {
+      padding: 10px 13px;
+    }
+
+    &_item {
+      font-size: 24px;
+      line-height: 154%;
+      color: black;
+    }
+  }
+
+  &_actions {
+    margin-left: auto;
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &_search {
+      @include clear-button;
+    }
+
+    &_basket {
+      position: relative;
+      display: inline-block;
+      
+      &_elips {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        background-color: #D9D9D9;
+        border-radius: 50%;
+        padding: 2px 6px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        font-size: 11px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
