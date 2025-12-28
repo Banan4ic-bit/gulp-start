@@ -1,11 +1,14 @@
 .header {
-  padding: 77px 84px;
+    width: 100%;
+    position: absolute;
+    z-index: 555;
 
   &_container {
     margin: 0 auto;
     align-items: center;
     display: flex;
-    width: 1559px;
+    justify-content: center;
+    margin-top: 77px;
   }
 
   &_nav {
@@ -16,6 +19,7 @@
       @include clear-list;
 
       display: flex;
+      padding-top: 10px;
     }
 
     a {
