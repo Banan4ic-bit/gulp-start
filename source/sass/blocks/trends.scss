@@ -1,0 +1,154 @@
+.trends {
+  color: black;
+
+  &_container {
+    margin-top: 132px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+  }
+
+  &_title-button {
+    margin-top: 45px;
+    width: 300px;
+    height: 320px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  &_title {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  &_type {
+    font-size: 45px;
+    line-height: 100%;
+    margin-top: 15px;
+  }
+
+  &_description {
+    font-size: 18px;
+  }
+
+  &_button {
+    margin-top: auto;
+  }
+
+  &_slider_wrapper {
+    position: relative;
+    padding-top: 45px;
+    width: 1191px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+  }
+
+  &_list {
+    @include clear-list;
+
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+
+  &_item {
+    position: relative;
+    background-color: #D9D9D926;
+    border: 2px solid #DEDEDE;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    width: 300px;
+    height: 350px;
+    padding: 0 36px 42px;
+  }
+
+
+  &_img { 
+    filter: 
+      drop-shadow(0px 2.77px 2.21px #00000005)
+      drop-shadow(0px 6.65px 5.32px #00000007)
+      drop-shadow(0px 12.52px 10.02px #00000009)
+      drop-shadow(0px 22.34px 17.87px #0000000B)
+      drop-shadow(0px 41.78px 33.42px #0000000D)
+      drop-shadow(0px 100px 80px #00000012);
+  }
+
+  &_name {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+
+  &_price {
+    margin-top: 28px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  &_button-item {
+    position: absolute;
+    bottom: 36px;
+    right: 36px;
+
+  }
+  
+  &_arrow-right {
+    @include clear-button;
+
+    position: absolute;
+    background-image: url('../img/Vector.svg');
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 50%;
+    z-index: 555;
+  }
+
+  &_arrow-left {
+    @include clear-button;
+
+    position: absolute;
+    background-image: url('../img/Vector.svg');
+    background-repeat: no-repeat;
+    transform: translateY(-50%) rotate(180deg);
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 50%;
+    z-index: 555;
+  }
+
+
+
+  &_slide-button {
+    margin-top: auto;
+    width: 92px;
+    height: 11px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &_button-dot {
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+
+      &.is-active {
+        width: 30px;
+        border-radius: 20px;
+      }
+  }
+}

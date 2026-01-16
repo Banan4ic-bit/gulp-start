@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ваш проект</title>
+    <title>Slick</title>
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
@@ -39,13 +39,14 @@
         </div>
       </div>
     </header>
+
     <main class="main">
       <div class="hero">
         <div class="hero_container container">
           <div class="hero_title-button">
             <h1 class="hero_title">Найди Свои Идеальные Кроссы</h1>
             <p class="hero_description">Какой-то супер-мотивирующий текст чтоб купили прям вообще всё</p>
-            <button class="hero_button">За покупками</button>
+            <button class="hero_button button button--cta-hero button--black button--shadows">За покупками</button>
           </div>
           <div class="hero_product">
             <img src="img/product_sneakers.png" alt="демонстрационные кроссовки" class="hero_product-img">
@@ -54,6 +55,242 @@
           </div>
         </div>
       </div>
+
+      <section class="markets">
+        <div class="markets_container container">
+          <a href="https://rozetka.com.ua/">
+            <img src="img/ozon-image-logo.png" alt="Ozon" class="markets_place">
+          </a>
+          <a href="https://rozetka.com.ua/">
+            <img src="img/wildberries-image-logo.png" alt="wildberries" class="markets_place">
+          </a>
+          <a href="https://rozetka.com.ua/">
+            <img src="img/sbermarket-image-logo.png" alt="sbermarket" class="markets_place">
+          </a>
+          <a href="https://rozetka.com.ua/">
+            <img src="img/yandex_marker-image-logo.png" alt="Yandex Market" class="markets_place">
+          </a>
+        </div>
+      </section>
+
+      <section class="trends">
+      <div class="trends_container container">
+          <div class="trends_left">
+            <div class="trends_title-button">
+              <h2 class="trends_title section-title-left">Сегодня В Тренде</h2>
+              <span class="trends_type">Самые Популярные</span>
+              <p class="trends_description">Посмотрите, что чаще всего покупают у нас</p>
+              <button class="trends_button button button--cta button--black button--shadows">Показать всё</button>
+          </div>
+          </div>
+          
+            <div class="trends_slider_wrapper">
+              <button class="trends_arrow-left"></button>
+              <button class="trends_arrow-right"></button>
+              <ul class="trends_list">
+                <li class="trends_item">
+                  <img src="img/black-sneaker.svg" alt="Черные кроссовки" width="225px" height="225px" class="trends_img">
+                  <span class="trends_name">Running sport shoe</span>
+                  <span class="trends_price">3999 &#8381;</span>
+                  <button class="trends_button-item button button--black button--round-arrow button--round-arrow-sm"></button>
+                </li>
+                <li class="trends_item">
+                  <img src="img/silver-sneaker.svg" alt="Серые кроссовки" width="225px" height="225px" class="trends_img">
+                  <span class="trends_name">Running sport shoe</span>
+                  <span class="trends_price">3999 &#8381;</span>
+                  <button class="trends_button-item button button--black button--round-arrow button--round-arrow-sm"></button>
+                </li>
+                <li class="trends_item">
+                  <img src="img/blue-sneaker.svg" alt="Синие кроссовки" width="225px" height="225px" class="trends_img">
+                  <span class="trends_name">Running sport shoe</span>
+                  <span class="trends_price">3999 &#8381;</span>
+                  <button class="trends_button-item button button--black button--round-arrow button--round-arrow-sm"></button>
+                </li>
+              </ul>
+              <div class="trends_slide-button">
+                <button class="trends_button-dot button button--black"></button>
+                <button class="trends_button-dot is-active button button--black"></button>
+                <button class="trends_button-dot button button--black"></button>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="banner">
+        <div class="banner_container container">
+            <img src="img/banner-leg.png" alt="Кроссовки банера" width="800px" height="800px" class="banner_img">
+            <div class="banner_content-wrapper">
+              <h2 class="banner_title">Ты готов проложить свой путь?</h2>
+              <button class="banner_button">См Все</button>
+              <ul class="banner_sneakers-list">
+                <li class="banner_sneakers-item">
+                  <img src="img/silver-sneaker.svg" alt="Серые кроссовки" width="83px" height="83px" class="banner_sneakers-img">
+                </li>
+                <li class="banner_sneakers-item">
+                  <img src="img/blue-sneaker.svg" alt="Синие кроссовки" width="83px" height="83px" class="banner_sneakers-img">
+                </li>
+                <li class="banner_sneakers-item">
+                  <img src="img/sneakershoe_banner-third.png" alt="Красные кроссовки" width="83px" height="83px" class="banner_sneakers-img">
+                </li>
+              </ul>
+              <div class="banner_slide-buttons">
+                <button class="banner_button-dot button"></button>
+                <button class="banner_button-dot is-active button"></button>
+                <button class="banner_button-dot button"></button>
+              </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="best_selling">
+        <div class="best_selling_container container">
+          <h2 class="best_selling_title section-title">Best Selling</h2>
+          <div class="best_selling_gender-swap">
+            <button class="best_selling_gender-swap--man button button--black">Мужские</button>
+            <button class="best_selling_gender-swap--wmn button button--white">Женские</button>
+          </div>
+
+          <div class="best_selling_wrapper">
+            <div class="best_selling_product--featured product product--big">
+              <a class="product_img">
+                <img src="img/sneakers_hot.png" alt="Горячая скидка" width="761px" height="731px">
+              </a>
+              <div class="product_content">
+                <h2 class="product_name">Slick formal sneaker shoe</h2>
+                <div class="product_prices">
+                  <span class="product_price">2999 &#8381;</span>
+                  <span class="product_price-old">4999 &#8381;</span>
+                </div>
+              </div>
+              <button class="product_button-catalog button button--black button--round-arrow button--round-arrow-big"></button>
+            </div>
+
+            <div class="best_selling_product product product--new">
+              <a class="product_img">
+                <img src="img/sneakers_new.png" alt="Новые кроссовки" width="373px" height="373px" >
+              </a>
+              <div class="product_content">
+                <h2 class="product_name">Slick sneaker shoe</h2>
+                  <div class="product_prices">
+                    <span class="product_price">2999 &#8381;</span>
+                    <span class="product_price-old">3999 &#8381;</span>
+                  </div>
+              </div>
+              <button class="product_button-catalog button button--black button--round-arrow button--round-arrow-md"></button>
+            </div>
+
+            <div class="best_selling_product product">
+              <a class="product_img">
+                <img src="img/sneakers_canvas.png" alt="Кроссовки канвас" width="373px" height="373px">
+              </a>
+              <div class="product_content">
+                <h2 class="product_name">Slick canvas shoe</h2>
+                <div class="product_prices">
+                  <span class="product_price">2999 &#8381;</span>
+                  <span class="product_price-old">3999 &#8381;</span>
+                </div>
+              </div>
+              <button class="product_button-catalog button button--black button--round-arrow button--round-arrow-md"></button>
+            </div>
+          </div>
+          <button class="best_selling_button-more button button--cta button--black button--shadows">Показать Все</button>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews_container container">
+          <h2 class="reviews_title section-title">Отзывы О Кроссах</h2>
+          <div class="reviews_wrapper">
+            <ul class="reviews_list">
+              <li class="reviews_item">
+                <img src="img/reviews_ava-joshi.png" alt="Ava Joshi"  width="132px" height="180px" class="reviews_ava">
+                <div class="reviews_content">
+                  <h3 class="reviews_name">Ava Joshi</h3>
+                  <div class="reviews_raiting">
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--half"></span>
+                  </div>
+                  <p class="reviews_coment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </li>
+              <li class="reviews_item">
+                <img src="img/reviews_otis-bisnoy.png" alt="Otis Bisnoy" width="132px" height="180px" class="reviews_ava">
+                <div class="reviews_content">
+                  <h3 class="reviews_name">Otis Bisnoy</h3>
+                  <div class="reviews_raiting">
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--full"></span>
+                    <span class="reviews_raiting_star reviews_raiting_star--half"></span>
+                  </div>
+                   <p class="reviews_coment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+          <footer class="footer">
+            <div class="footer_container container">
+              <div class="footer_wrapper">
+                <div class="footer_about">
+                  <a class="footer_logo" href="#">
+                    <img src="img/Slick-logo_white.svg" alt="Slick">
+                  </a>
+                  <p class="footer_description">Какие мы крутые, у нас лучшие кроссы и ваще... всё.</p>
+                  <div class="footer_icons">
+                    <a class="footer_telegramm">
+                      <img src="img/telegramm-icon.svg" alt="telegramm" width="21px" height="18px"  >
+                    </a>
+                    <a class="footer_vk">
+                      <img src="img/vk-icon.svg" alt="Вк" width="24px" height="16px">
+                    </a>
+                  </div>
+                </div>
+                <div class="footer_subscribe">
+                  <span class="footer_subscribe-description">
+                    Подпишись на наши акции
+                  </span>
+                  <form class="footer_subscribe-form">
+                    <input type="email" placeholder="Введи Email..." class="footer_subscribe-email">
+                    <button type="submit" class="footer_subscribe-button">Подписаться</button>
+                  </form>
+                </div>
+                <div class="footer_links">
+                  <p class="footer_links-name">Быстрые ссылки</p>
+                  <ul class="footer_links-list">
+                    <li class="footer_links-item">
+                      <a href="#">
+                        Гланвая
+                      </a>
+                    </li>
+                    <li class="footer_links-item">
+                      <a href="#">
+                        Магазин
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Контакты
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p class="footer_rights">www.slick.com©all right reserve</p>
+            </div>
+          </footer>
+        </div>
+      </section>
     </main>
   </body>
 </html>
