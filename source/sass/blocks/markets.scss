@@ -1,0 +1,12 @@
+.markets {
+  background-color: black;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 162px;
+    gap: 200px;
+    
+  }
+}

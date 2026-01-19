@@ -24,28 +24,6 @@
     line-height: 43px;
   }
 
-  &_button {
-    @include clear-button;
-
-    background-color: black;
-    color: white;
-    width: 312px;
-    height: 87px;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 30px;
-    text-align: center;
-    padding: 22px 57px; 
-    box-shadow:
-      0px 2.32px 1.97px 0px #00000006,
-      0px 5.39px 4.58px 0px #00000009,
-      0px 9.68px 8.22px 0px #0000000B,
-      0px 16.06px 13.65px #0000000C,
-      0px 26.45px 22.49px #0000000E,
-      0px 46.23px 39.3px #00000011,
-      0px 100px 85px #00000017;
-  }
-
   &_product {
     position: relative;
     padding-top: 316px;
@@ -54,21 +32,21 @@
     width: 998px;
     height: 1117px;
 
-          &::before {
-              content: "";
-              position: absolute;
-              top: 0;
-              left: 7%;
-              width: 100vw;
-              height: 100%;
-              background:
-                url("../img/ultimate.svg") no-repeat left 156px,
-                linear-gradient(to right, #e4e4e4 0%, #fafafa 100%);
-              background-size:
-                142px 949px,
-                100% 100%;
-              z-index: 1;
-          }
+      &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 7%;
+          width: 56.4vw;
+          height: 100%;
+          background:
+            url("../img/ultimate.svg") no-repeat left 156px,
+            linear-gradient(to right, #e4e4e4 0%, #fafafa 100%);
+          background-size:
+            142px 949px,
+            100% 100%;
+          z-index: 1;
+      }
   }
 
 
@@ -98,5 +76,4 @@
     line-height: 29px;
     z-index: 3;
   }
-
 }

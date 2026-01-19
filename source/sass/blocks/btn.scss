@@ -1,0 +1,72 @@
+  .button {
+    @include clear-button;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+
+    &--cta {
+      width: 290px;
+      height: 77px;
+    }
+
+    &--cta-hero {
+      width: 312px;
+      height: 87px;
+    }
+
+    &--black {
+      background-color: black;
+      color: white;
+    }
+
+    &--white {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000BF;
+    }
+
+    &--shadows {
+      box-shadow:
+        0px 2.32px 1.97px #f7e7e706,
+        0px 5.39px 4.58px #00000009,
+        0px 9.68px 8.22px #0000000B,
+        0px 16.06px 13.65px #0000000C,
+        0px 26.45px 22.49px #0000000E,
+        0px 46.23px 39.3px #00000011,
+        0px 100px 85px #00000017;
+    }
+
+    &--round-arrow {
+    width: 58px;
+    height: 58px;
+    background-image: url('../img/arrow-white.svg');
+    background-size: 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    }
+
+    &--round-arrow-sm {
+      width: 40px;
+      height: 40px;
+      background-size: 16px;
+    }
+
+    &--round-arrow-md {
+      width: 58px;
+      height: 58px;
+      background-size: 21px;
+    }
+
+    &--round-arrow-big {
+      width: 118px;
+      height: 118px;
+      background-size: 43px;
+    }
+}

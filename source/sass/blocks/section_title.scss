@@ -1,0 +1,33 @@
+.section-title {
+    font-weight: 500;
+    color: black;
+    text-align: center;
+
+    &::before, &::after {
+      width: 41px;
+      height: 3px;
+      content: '';
+      background-color: black;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 22px;
+      transform: translateY(-5);
+    }
+}
+
+.section-title-left {
+    font-weight: 500;
+    color: black;
+    text-align: center;
+
+      &::before {
+        width: 41px;
+        height: 3px;
+        content: '';
+        background-color: black;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 22px;
+        transform: translateY(-5);
+      }
+  }
